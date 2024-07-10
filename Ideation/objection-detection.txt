@@ -1,0 +1,32 @@
+
+Here is a structured presentation for your hackathon project based on the second code:
+
+Problem Statement
+Develop a real-time object detection and alert system to assist visually impaired individuals by providing auditory feedback on their surroundings.
+
+Description (Target Audience)
+This project aims to aid visually impaired individuals by detecting objects in their immediate environment and providing audio feedback to enhance situational awareness and safety. The system identifies objects, warns of potential hazards, and communicates the distance of approaching objects, making navigation safer and more intuitive for those with visual impairments.
+
+Tech Stack
+Programming Language: Python
+Deep Learning Framework: TensorFlow
+Object Detection Model: SSD MobileNet v2
+Image Processing Library: OpenCV
+Text-to-Speech Library: pyttsx3
+Visualization: cv2 (OpenCV)
+Miscellaneous: NumPy for numerical operations, pytesseract for text detection
+AI Model Available
+Model Used: SSD MobileNet v2
+Library: TensorFlow
+Training: Pre-trained on the COCO dataset
+Accuracy: Optimized for real-time performance
+Input (Dataset)
+Source: Live webcam feed
+Data Type: Video frames captured from the webcam
+Content: Real-time images of the user's surroundings
+Output
+Detection: Real-time identification of objects within the webcam's view.
+Audio Alerts: Vocal notifications about detected objects, including warnings for objects that are too close (e.g., vehicles, bottles, people).
+Visual Indicators: Bounding boxes and labels drawn on the video frames displayed to a live feed window.
+Conclusion
+This project leverages advanced object detection models and real-time image processing to create an assistive technology for visually impaired individuals. By providing timely auditory alerts about the user's environment, the system enhances mobility and safety, addressing a critical need for accessibility solutions. The integration of robust AI models and user-friendly interfaces demonstrates the potential for AI to make significant contributions to improving the quality of life for individuals with disabilities.
